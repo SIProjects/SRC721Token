@@ -1,24 +1,24 @@
 {
   "name": "qrc721-cli",
   "version": "1.0.0",
-  "description": "QRC721 Client",
+  "description": "SRC721 Client",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qtumproject/QRC721Token"
+    "url": "https://github.com/SIProjects/SRC721Token"
   },
   "keywords": [
-    "QRC721",
-    "Qtum",
+    "SRC721",
+    "SICash",
     "solidity",
     "contract"
   ],
-  "author": "ZhengYi@Qtum <zhengyi@qtum.org>",
+  "author": "SICash Foundation <support@sicash.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qtumproject/QRC721Token/issues"
+    "url": "https://github.com/SIProjects/SRC721Token/issues"
   },
   "dependencies": {
     "arg": "2.0.0",
-    "qtumjs": "1.9.1"
+    "sicashjs": "1.9.1"
   }
 }

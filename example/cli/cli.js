@@ -1,14 +1,14 @@
 const arg = require('arg');
-const {Qtum} = require('qtumjs');
+const {SICash} = require('sicashjs');
 
 const args = arg({
-    '--qtum_rpc':   String,
+    '--sicash_rpc':   String,
     '--solar_file': String,
 });
 
 const repo = require(args['--solar_file']);
-const qtum = new Qtum(args['--qtum_rpc'], repo);
-const contract = qtum.contract('contracts/QRC721.sol');
+const sicash = new SICash(args['--sicash_rpc'], repo);
+const contract = sicash.contract('contracts/SRC721.sol');
 
 async function getData() {
     let res = {token: []};

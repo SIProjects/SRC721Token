@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract IQRC721 {
+contract ISRC721 {
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
     event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);
     event ApprovalForAll(address indexed owner, address indexed operator, bool approved);

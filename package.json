@@ -1,21 +1,21 @@
 {
   "name": "qrc721",
   "version": "1.0.0",
-  "description": "QRC721 Token Template",
+  "description": "SRC721 Token Template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qtumproject/QRC721Token"
+    "url": "https://github.com/SIProjects/SRC721Token"
   },
   "keywords": [
-    "QRC721",
-    "Qtum",
+    "SRC721",
+    "SICash",
     "solidity",
     "contract"
   ],
-  "author": "Lickey@Qtum <qi.li@qtum.org>",
+  "author": "SICash Foundation <support@sicash.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qtumproject/QRC721Token/issues"
+    "url": "https://github.com/SIProjects/SRC721Token/issues"
   },
   "dependencies": {
     "openzeppelin-solidity": "^2.1.3"
